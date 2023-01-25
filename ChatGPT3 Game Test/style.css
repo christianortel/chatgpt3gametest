@@ -1,0 +1,65 @@
+body {
+  background-image: url('./backgrounf.png');
+  background-size: 720px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #163438;
+  width: 720px;
+  margin: 0 auto;
+}
+
+#dd {
+  width: 150px;
+  height: 150px;
+  background-image: url('dumbledore.png');
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+#character {
+  width: 150px;
+  height: 150px;
+  background-image: url('character-asset.png');
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+#chatbox {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 10px;
+  visibility: hidden;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+}
+
+#dumbledore-chatbox {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  height: 1.5em;
+  padding: 25px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+}
